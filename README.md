@@ -15,6 +15,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 - Crash Report
 
 ###Index
+- [Parse Server providers](#parse-server-providers)
 - [General purpose providers](#general-purpose-providers)
 - [Push notification providers](#push-notification-providers)
 - [Analytics providers](#analytics-providers)
@@ -22,9 +23,53 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 - [User Administration providers](#user-administration-providers)
 - [Backends for Game developers](#backends-for-game-developers)
 - [Open-Source Solutions](#open-source-solutions)
-- [Parse Server providers](#parse-server-providers)
 
 The real-time providers are marked with :zap: icon.
+
+###Parse Server providers
+
+- **[ParseGround](http://www.parseground.com)**
+Simple Parse Server hosting made by Parse.com addicts. ParseGround takes care for the server management, so you can focus on your apps. Simple and flexible pricing. Based on AWS Technologies.
+
+- **[Nitrous](https://www.nitrous.io)**
+Nitrous is a cloud-based code editor with collaboration, one-click installs and snapshots.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/199)*)
+
+- **[RAX](https://www.rackspace.com)**
+Cloud provider with support for it's own cloud, aws and azure. Supports running Node.js in both vms and docker containers.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/181)*)
+
+- **[AWS](https://aws.amazon.com)**
+AWS is Amazon's cloud infrastructure service. It supports running Node.js apps both on VMs and docker container as well as running Mongo and aws own DynamoDB.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/179)*)
+
+- **[Azure](https://azure.microsoft.com)**
+Microsoft cloud service. Supports both Node.js and Mongo via MongoLab.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/180)*)
+
+- **[Clever Cloud](https://www.clever-cloud.com)**
+Clever Cloud is a Europe-based PaaS company with bulletproof infrastructure, automatic scaling, fair pricing and an integration with Github for app deployment and hosting. Clever Cloud comes with a Node.js runtime and a native MongoDB add-on to run Parse.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/211)*)
+
+- **[Google Cloud Platform](https://cloud.google.com/nodejs/resources/frameworks/parse-server)**
+You can migrate your app from the hosted Parse backend to Google App Engine by running Node.js on App Engine Managed VMs and using MongoDB preinstalled on a Compute Engine VM instance or by using MongoLab.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/47)*)
+
+- **[Heroku](https://www.heroku.com)**
+Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/201)*)
+
+- **[IBM Bluemix](https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix)**
+Bluemix is IBM's platform service, built with Cloud Foundry and running on IBM SoftLayer. It supports the Node.js runtime required for Parse Server. Bluemix also comes with many database options, including MongoDB from IBM's Compose.io acquisition. Link includes migration instructions.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/48)*)
+
+- **[Nimble Parse](http://nimbleparse.com)**
+We at Nimblestack built and launched a 100% Parse compatible API in less than one week. Current offer includes Object creation & query, User management, and Cloud Code. Push notifications and background jobs are in the pipeline.
+
+- **[Triton](https://www.joyent.com)**
+Joyents elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/182)*)
+
 
 ###General purpose providers
 
@@ -437,44 +482,3 @@ Piwik is the leading open-source analytics platform that gives you more than jus
 - **[Serverless Framework](http://www.serverless.com)**
 The application framework for building web, mobile and IoT backends exclusively on Amazon Web Services' Lambda and API Gateway.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/206)*)
-
-###Parse Server providers
-
-- **[AWS](https://aws.amazon.com)**
-AWS is Amazon's cloud infrastructure service. It supports running Node.js apps both on VMs and docker container as well as running Mongo and aws own DynamoDB.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/179)*)
-
-- **[Azure](https://azure.microsoft.com)**
-Microsoft cloud service. Supports both Node.js and Mongo via MongoLab.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/180)*)
-
-- **[Clever Cloud](https://www.clever-cloud.com)**
-Clever Cloud is a Europe-based PaaS company with bulletproof infrastructure, automatic scaling, fair pricing and an integration with Github for app deployment and hosting. Clever Cloud comes with a Node.js runtime and a native MongoDB add-on to run Parse.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/211)*)
-
-- **[Google Cloud Platform](https://cloud.google.com/nodejs/resources/frameworks/parse-server)**
-You can migrate your app from the hosted Parse backend to Google App Engine by running Node.js on App Engine Managed VMs and using MongoDB preinstalled on a Compute Engine VM instance or by using MongoLab.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/47)*)
-
-- **[Heroku](https://www.heroku.com)**
-Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/201)*)
-
-- **[IBM Bluemix](https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix)**
-Bluemix is IBM's platform service, built with Cloud Foundry and running on IBM SoftLayer. It supports the Node.js runtime required for Parse Server. Bluemix also comes with many database options, including MongoDB from IBM's Compose.io acquisition. Link includes migration instructions.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/48)*)
-
-- **[Nimble Parse](http://nimbleparse.com)**
-We at Nimblestack built and launched a 100% Parse compatible API in less than one week. Current offer includes Object creation & query, User management, and Cloud Code. Push notifications and background jobs are in the pipeline.
-
-- **[Nitrous](https://www.nitrous.io)**
-Nitrous is a cloud-based code editor with collaboration, one-click installs and snapshots.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/199)*)
-
-- **[RAX](https://www.rackspace.com)**
-Cloud provider with support for it's own cloud, aws and azure. Supports running Node.js in both vms and docker containers.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/181)*)
-
-- **[Triton](https://www.joyent.com)**
-Joyents elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/182)*)
